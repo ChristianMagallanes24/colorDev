@@ -119,6 +119,12 @@ footer p{
 }
 
 @media screen and (max-width: 845px) {
+    .logo{
+        width: 80px;
+    }
+    footer p{
+        font-size: 18px;
+    }
     .paletaContainer{
         height: 80vh;
         gap: 15px;
