@@ -4,7 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
     let colorCopiado = document.getElementById("colorCopiado");
 
     function generarColor() {
-        const color = "#" + Math.floor(Math.random() * 16777215).toString(16);
+        let color = "#";
+        for (let i = 0; i < 6; i++) {
+            const numAleatorio = Math.floor(Math.random() * 16);
+            color += numAleatorio.toString(16);
+        }
         return color;
     }
 
@@ -17,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
             colorDiv.addEventListener("click", function() {
                 navigator.clipboard.writeText(color).then(function() {
                     console.log("Color copiado: " + color);
-                    colorCopiado.innerText = "color copiado: " + color;
+                    colorCopiado.innerText = "copied in color: " + color;
                     colorCopiado.style.color = color; // Aplicar el color copiado como color del texto
                 }).catch(function(err) {
                     console.error("Error al copiar el color: ", err);
