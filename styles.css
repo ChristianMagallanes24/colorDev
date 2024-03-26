@@ -14,13 +14,13 @@
 }
 .btn{
     border: none;
-    background-color: #100D28;
+    background-color: transparent;
     margin-top: 10px;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-    padding: 5px 25px;
-    box-shadow: #fff 5px 5px 5px 1px;
+    
+    font-size: 48px;
+  margin-left: 20px;
+   
+  
     font-family: "Nunito Sans", sans-serif;
 
 }
@@ -137,6 +137,10 @@ footer p{
    .paleta{
     flex-direction: column;
     max-height: 700px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
    }
+   
   }
   

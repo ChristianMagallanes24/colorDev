@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Cambiar el texto del botón según el estado del modo oscuro
         if (modoOscuroActivado) {
-            darkMode.innerText = "Light Mode";
+            darkMode.innerText = "🌝";
         } else {
-            darkMode.innerText = "Dark Mode";
+            darkMode.innerText = "🌚";
         }
     }
 });
