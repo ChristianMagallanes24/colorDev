@@ -14,7 +14,8 @@
 }
 .btn{
     border: none;
-    background-color: rgb(0, 0, 0);
+    background-color: #100D28;
+    margin-top: 10px;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -33,7 +34,7 @@
 }
 #btnGenerar{
     border: none;
-    background-color: #4d15a7;
+    background-color: #100D28;
     color: #fff;
     font-size: 28px;
     padding: 2px 25px;
@@ -90,10 +91,10 @@ body{
    
 }
 #titulo span{
-    color: #4d15a7;
+    color: #241d5a;
 }
 footer{
-    background-color: #4d15a7;
+    background-color: #100D28;
     height: 200px;
     margin-top: 50px;
     display: flex;
@@ -109,12 +110,12 @@ footer p{
     font-family: "Edu NSW ACT Foundation", cursive;
 
 }
-footer h2 {
-    border-bottom: solid;
-    color: #fff;
-    width: 100px;
-    font-family: "Edu NSW ACT Foundation", cursive;
-
+.logo{
+    width: 120px;
+    border-bottom: solid #fff;
+}
+.img-logo{
+    width: 100%;
 }
 
 @media screen and (max-width: 845px) {
